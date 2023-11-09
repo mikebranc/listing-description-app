@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-items:center;
+  background-image: linear-gradient(to bottom, #121C84, #8278DA);
+  min-height:100vh;
+  color: white;
+  padding: 50px;
 }
 
 .App-logo {
@@ -26,6 +34,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.content {
+  width:500px;
+}
+
+.formData {
+  margin-top: 5px;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
